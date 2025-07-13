@@ -16,12 +16,18 @@
     border-radius: 10px;
     font-size: 16px;
     border: none;
-    height: 150%;
 }
 
 .text-color {
     color: #4E47FF;
 }
+.title-text {
+    color: #252432;
+}
+.desc-text {
+    color: rgba(37, 36, 50, 0.5);
+}
+
 
 /* header  */
 .header {
@@ -54,4 +60,72 @@ nav {
     font-weight: 700;
     color: #252432;
     margin-bottom: 37px;
+}
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* see it section styles  */
+.see-it {
+    display: flex;
+    margin-top: 116px;
+    margin-bottom: 116px;
+    justify-content: space-between;
+}
+.see {
+    margin-top: 63px;
+    margin-bottom: 63px;
+    margin-right: 220px;
+}
+.see-title {
+    font-size: 42px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 23px;
+}
+.see-desc {
+    font-size: 24px;
+    margin-top: 23px;
+    margin-bottom: 23px;
+}
+.see-img {
+    height: 328px;
+    width: 403px;
+    border-radius: 48px;
+}
+
+/* number section  */
+.number {
+    background-color: rgba(78, 71, 255, 0.1);
+    text-align: center;
+    border-radius: 24px;
+    padding: 50px 80px;
+}
+.number-title {
+    font-size: 38px;
+    font-weight: 700;
+}
+.stats {
+    display: flex;
+    justify-content: space-between;
+}
+.stat {
+    text-align: center;
+}
+.stat-h {
+    color: #4E47FF;
+    font-size: 80px;
+    font-weight: 700;
+    margin: 0px;
+}
+.stat-p {
+    color: rgba(37, 36, 50, 0.5);
+    font-size: 20px;
+    margin: 0px;
+}
+
+/* review section  */
+.review {
+    display: flex;
 }
