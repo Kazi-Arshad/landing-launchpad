@@ -61,7 +61,10 @@ nav {
     color: #252432;
     margin-bottom: 37px;
 }
-
+/* body  */
+body {
+    background-color: rgba(205, 203, 255, 0.1);
+}
 main {
     max-width: 1140px;
     margin: 0 auto;
@@ -126,6 +129,179 @@ main {
 }
 
 /* review section  */
+
 .review {
+    text-align: center;
+    margin-top: 137px;
+    margin-bottom: 137px;
+}
+.review-title {
+    margin-bottom: 50px;
+    font-size: 42px;
+    font-weight: 700;
+    color: #252432;
+
+}
+.card-container {
     display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    text-align: left;
+}
+.card {
+    padding-left: 24px;
+    padding-bottom: 24px;
+    padding-top: 24px;
+    border-radius: 14px;
+    box-shadow: 2px 2px 2px 2px #F2EDED;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.rev {
+    margin-right: 24px;
+}
+.rev-h {
+    margin-bottom: 8px;
+    color: #212121;
+}
+.rev-p {
+    margin-top: 0px;
+    color: #212121;
+
+}
+.reviewer {
+    display: flex;
+}
+.pic {
+    max-height: 40px;
+    width: 40px;
+}
+.pfp {
+    border-radius: 30px;
+}
+.info-date, .info-name {
+    margin: 0 0 0 9px;
+}
+.info-name {
+    color: #666666;
+}
+.info-date {
+    color: #9E9E9E;
+}
+
+/* ready section  */
+.ready {
+    padding: 71px 150px 71px 150px;
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px #ebebeb;
+    border-radius: 14px;
+    background-color: #FFFFFF;
+
+}
+.ready-title {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    color: #000000;
+}
+.ready-p {
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.big {
+    margin-top: 20px;
+    border-radius: 48px;
+}
+
+/* contact section  */
+.contact {
+    display: flex;
+    justify-content: space-between;
+}
+.contact-title {
+    display: flex;
+    align-items: center;
+}
+.contact-h {
+    font-size: 97px;
+    font-weight: 700;
+    margin: 0;
+}
+.contact-form {
+    margin-top: 71px;
+    margin-bottom: 71px;
+    width: 497px;
+
+}
+
+/* form input[type="text"], form input[type="email"], form textarea {
+    height: 70px;
+    border-radius: 10px;
+    background-color: white;
+    
+    margin-bottom: 24px;
+    padding: 20px 32px;
+    border: none;
+    box-shadow: 1px 1px 1px 1px rgba(214, 221, 237, 1);
+    
+    color: rgba(0, 0, 0, 0.5);
+} */
+form input[type="text"], form input[type="email"], form textarea {
+    display: block;
+    padding: 20px 32px;
+    margin-bottom: 19px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 84.5%;
+    border: 1px solid rgba(214, 221, 237, 1);
+}
+
+form label {
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 10px;
+}
+.btn {
+    padding: 19px 101px;
+    width: 100%;
+
+}
+
+
+/* footer  */
+footer {
+    background-color: #FFFFFF;
+    padding-top: 104px;
+    padding-bottom: 104px;
+}
+.footer {
+    width: 531px;
+    margin: 0 auto; /* center block horizontally */
+    text-align: center;
+    width: 531px;
+    background-color: #FFFFFF;
+    
+}
+.footer-title {
+    margin: 0px;
+    font-size: 100px;
+    font-weight: 900;
+    color: #4E47FF;
+
+}
+.footer-p {
+    color: rgba(137, 135, 161, 1);
+
+}
+.footer-links {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 8px 0px 20px 0px;
+}
+footer a {
+    color: rgba(137, 135, 161, 1);
+    text-decoration: none;
 }
